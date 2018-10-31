@@ -11,6 +11,6 @@
   "description": "Une todo list",
   "license": "MIT",
   "engines": {
-    "node": "4.1.1"
+    "node": "8.12.0"
   }
 }
