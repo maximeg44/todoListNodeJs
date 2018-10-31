@@ -4,6 +4,7 @@ var bodyParser = require('body-parser'); // Charge le middleware de gestion des 
 var urlencodedParser = bodyParser.urlencoded({ extended: false });
 
 var app = express();
+//const PORT = process.env.PORT;
 
 
 /* On utilise les sessions */
@@ -45,4 +46,5 @@ on en crée une vide sous forme d'array avant la suite */
     res.redirect('/todo');
 })
 
-.listen(8080);   
+.listen(8080);
+//.listen(PORT);
